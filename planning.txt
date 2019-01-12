@@ -2,4 +2,20 @@ Good functionalities
     https://www.porsche.com/brazil/pt/
     https://monza.ferrari.com/en-us/monza-sp1
     https://cars.mclaren.com/
-    
+
+what is important for the client?
+    - showroom
+        - cars available
+    - contact
+        - form
+        - email
+    - to be attractive
+        - main section with "highlights"
+            - css effects
+        - good design
+        - call to action
+        - why us?
+        - depoiments
+    - promotions
+        - packages
+        - 
