@@ -18,4 +18,27 @@ what is important for the client?
         - depoiments
     - promotions
         - packages
-        - 
+
+parallax pixel background
+https://www.youtube.com/watch?v=aywzn9cf-_U
+
+velocimeter
+https://roundsliderui.com/demos.html#different-theming-and-appearances
+
+svg stroke animation
+https://www.youtube.com/watch?v=y0Ic8QcvyK8
+
+parallax down effect
+https://www.youtube.com/watch?v=WTZpNAbz3jg&index=3&t=0s&list=PLqGj3iMvMa4IyCbhul-PdeiDqmh4ooJzk
+
+animate css
+https://daneden.github.io/animate.css/
+
+revealed footer
+https://www.youtube.com/watch?v=VH0iYda6KNs&list=PLqGj3iMvMa4IyCbhul-PdeiDqmh4ooJzk&index=8
+
+zoom image
+https://www.youtube.com/watch?v=ttNrJRvp9pg
+
+css perspective property
+https://www.youtube.com/watch?v=8NGNKBIA_eI
