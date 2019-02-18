@@ -1,0 +1,59 @@
+* {
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+
+section {
+    height: 100vh;
+    border: 3px solid blue;
+}
+
+.home {
+    background: #06282A;
+    background-image: url("../assets/01-home/divo.png");
+    background-position: 100% 290%;
+    background-size: 110% auto;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+header {
+    justify-content: center;
+}
+
+.home ul {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+.home ul li {
+    /* width: 10vw; */
+    align-self: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #B0C8D1;
+}
+
+article {
+    margin: 20px 20px 0 0;
+    width: 40vw;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.logo-bugatti {
+    width: 50%;
+}
+
+.logo-divo {
+    width: 100%;
+}
