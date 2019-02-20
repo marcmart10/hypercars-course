@@ -81,6 +81,19 @@ article p {
 
 /* ---------------------- SHOWROOM ---------------------- */
 
+.showroom {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.showroom h2 {
+    text-transform: uppercase;
+    color: #666;
+    padding: 15px 25px;
+    border: 7px solid #666;
+    align-self: center;
+}
+
 /* ---------------------- ABOUT US ---------------------- */
 
 /* ---------------------- PRICE ---------------------- */
