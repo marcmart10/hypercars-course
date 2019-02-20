@@ -86,12 +86,40 @@ article p {
     align-items: flex-start;
 }
 
-.showroom h2 {
+.showroom > h2 {
     text-transform: uppercase;
     color: #666;
     padding: 15px 25px;
     border: 7px solid #666;
     align-self: center;
+}
+
+.red-bg {
+    background: red;
+    width: 50vw;
+    height: 130px;
+    clip-path: polygon(0 0, 100% 0%, 87% 100%, 0% 100%);
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.red-bg > h2::before, .red-bg > h2::after  {
+    content: '';
+    display: block;
+    height: 10px;
+    width: 120%;
+    background: #fff;
+    margin: 10px 0 10px -25px;
+}
+
+
+.red-bg > h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    letter-spacing: .3em;
+    font-style: italic;
+    margin: 0 0 0 20px;
 }
 
 /* ---------------------- ABOUT US ---------------------- */
