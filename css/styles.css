@@ -1,7 +1,10 @@
+/* ---------------------- GENERAL ---------------------- */
+
 * {
     /* border: 1px solid red; */
     padding: 0;
     margin: 0;
+    font-family: 'Roboto';
 }
 
 .flex-container {
@@ -13,10 +16,12 @@ section {
     border: 3px solid blue;
 }
 
+/* ---------------------- HOME ---------------------- */
+
 .home {
     background: #06282A;
     background-image: url("../assets/01-home/divo.png");
-    background-position: 100% 290%;
+    background-position: 100% 320%;
     background-size: 110% auto;
     background-repeat: no-repeat;
     flex-direction: column;
@@ -24,6 +29,7 @@ section {
 
 header {
     justify-content: center;
+    margin: 25px 0 0 0;
 }
 
 .home ul {
@@ -46,14 +52,39 @@ article {
     margin: 20px 20px 0 0;
     width: 40vw;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     align-self: flex-end;
 }
 
-.logo-bugatti {
-    width: 50%;
+article .logo-bugatti {
+    width: 30%;
+    align-self: flex-end;
+    padding: 10px 35px 35px;
 }
 
-.logo-divo {
+article .logo-divo {
     width: 100%;
 }
+
+article h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    padding: 35px;
+}
+
+article p {
+    color: #fff;
+    width: 65%;
+    text-align: right;
+}
+
+/* ---------------------- SHOWROOM ---------------------- */
+
+/* ---------------------- ABOUT US ---------------------- */
+
+/* ---------------------- PRICE ---------------------- */
+
+/* ---------------------- TESTIMONALS ---------------------- */
+
+/* ---------------------- GET IN TOUCH ---------------------- */
