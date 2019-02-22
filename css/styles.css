@@ -216,7 +216,22 @@ dt {
 
 /* ---------------------- PRICE ---------------------- */
 
+.p-container {
+    width: 100vw;
+    justify-content: space-around;
+}
 
+.p-container img {
+    width: 50vw;
+}
+
+.p-info {
+    width: 30vw;
+}
+
+form {
+    align-self: center;
+}
 
 /* ---------------------- TESTIMONALS ---------------------- */
 
