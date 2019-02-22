@@ -223,6 +223,7 @@ dt {
 .p-container {
     width: 100vw;
     justify-content: space-around;
+    margin-left: -20px;
 }
 
 .p-container img {
@@ -234,6 +235,8 @@ dt {
     width: 30vw;
     flex-direction: column;
     text-align: center;
+    margin-left: -70px;
+    
 }
 
 .p-info p {
