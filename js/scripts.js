@@ -1,4 +1,4 @@
-$("#handle1").roundSlider({
+$(".speedometer").roundSlider({
     sliderType: "min-range",
     editableTooltip: false,
     radius: 170,

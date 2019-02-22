@@ -1,7 +1,8 @@
 /* ---------------------- GENERAL ---------------------- */
+@import url('./speedometer.css');
 
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     padding: 0;
     margin: 0;
     font-family: 'Roboto';
@@ -81,13 +82,20 @@ article p {
 
 /* ---------------------- SHOWROOM ---------------------- */
 
-.showroom {
+.showroom, 
+.about-us, 
+.price, 
+.testimonals, 
+.get-in-touch {
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 50px;
 }
 
-.showroom > h2 {
+.showroom > h2, 
+.about-us > h2,
+.price > h2,
+.testimonals > h2,
+.get-in-touch > h2 {
     text-transform: uppercase;
     color: #666;
     padding: 15px 25px;
@@ -159,50 +167,42 @@ dt {
     height: 120px;
 }
 
-/* ---------------------- VELOCIMETER ---------------------- */
-
-#handle1 {
-    margin: 0 0 0 130px;
-}
-
-#handle1 .rs-handle  {
-    background-color: transparent;
-    border: 8px solid transparent;
-    border-right-color: yellowgreen;
-    margin: -6px 0px 0px 34px !important;
-    border-width: 5px 134px 6px 4px;
-}
-#handle1 .rs-handle:before  {
-    display: block;
-    content: " ";
-    position: absolute;
-    height: 22px;
-    width: 22px;
-    background: gray;
-    right: -11px;
-    bottom: -11px;
-    border-radius: 100px;
-}
-#handle1 .rs-tooltip  {
-    top: 75%;
-    font-size: 11px;
-}
-#handle1 .rs-tooltip div  {
-    text-align: center;
-    background: orange;
-    color: white;
-    border-radius: 4px;
-    padding: 1px 5px 2px;
-    margin-top: 4px;
-}
-#handle1 .rs-range-color  {
-    background-color: purple;
-}
-#handle1 .rs-path-color  {
-    background-color: #F0C5C5;
-}
-
 /* ---------------------- ABOUT US ---------------------- */
+
+.about-us {
+    position: relative;
+}
+.about-us::before {
+    content : "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity : 0.5;
+    z-index: -1;
+    background-image: url("../assets/03-about-us/bg.jpg");
+    background-size: cover;
+}
+
+.au-info {
+    flex-direction: column;
+    width: 50vw;
+}
+
+.au-pics {
+    height: 300px;
+    width: 50vw;
+    flex-wrap: wrap;
+    background: #fff;
+    /* align-items: flex-start; */
+}
+
+.au-pics img {
+    align-self: flex-start;
+}
+
+.lambo {
+    align-self: flex-start
+}
 
 /* ---------------------- PRICE ---------------------- */
 
