@@ -151,7 +151,7 @@ article p {
 .cars {
     list-style: none;
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
 }
 
 .cars li {
@@ -190,12 +190,12 @@ dt {
 
 .au-container {
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
 }
 
 .au-info {
     flex-direction: column;
-    width: 30vw;
+    width: 30%;
 }
 
 .au-info p {
@@ -221,18 +221,18 @@ dt {
 /* ---------------------- PRICE ---------------------- */
 
 .p-container {
-    width: 100vw;
+    width: 100%;
     justify-content: space-around;
     margin-left: -20px;
 }
 
 .p-container img {
-    width: 50vw;
+    width: 50%;
     align-self: center;
 }
 
 .p-info {
-    width: 30vw;
+    width: 30%;
     flex-direction: column;
     text-align: center;
     margin-left: -70px;
@@ -277,7 +277,7 @@ label {
     color: #666;
 }
 
-input, select {
+input, select, textarea {
     border: 2px solid gray;
     padding: 5px;
     border-radius: 5px;
@@ -314,7 +314,7 @@ button {
 
 .t-container {
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
 }
 
 .user {
@@ -348,6 +348,57 @@ button {
     color: #fff;
 }
 
-
-
 /* ---------------------- GET IN TOUCH ---------------------- */
+
+.get-in-touch {
+    background: #FFB400;
+}
+
+.get-in-touch input, .get-in-touch textarea {
+  margin: 0;
+}
+
+.get-in-touch label {
+    padding: 10px 0;
+    color: rgb(78, 78, 78);
+}
+
+.get-in-touch button {
+    margin: 10px 0 0 0;
+}
+
+.git-container {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.git-container img {
+    margin: 0 0 0 100px;
+}
+
+.git-form {
+    flex-direction: column;
+    width: 40%;
+    margin: -50px 100px 0 0;
+}
+
+.git-form div div:nth-of-type(1) {
+    margin: 0 10px 0 0;
+}
+
+.git-form div div:nth-of-type(2) {
+    margin: 0 0 0 10px;
+}
+
+.names div {
+    flex-direction: column;
+    flex: 1;
+}
+
+.email, .message {
+    flex-direction: column;
+}
+
+button {
+    align-self: flex-end;
+}
