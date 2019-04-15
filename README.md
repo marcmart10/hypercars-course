@@ -1,4 +1,5 @@
 # HTML e CSS de alta performance
+
 #1 - Formas de lidar com CSS e JS
 
     Inline, incorporado e externo;
@@ -25,7 +26,12 @@
 
     Quando escrevemos um código e importante que ele esteja legível e organizado, pois isso nos ajudará em manutenções futuras. No entanto, para o computador nada disso importa, e quanto mais arquivos tivermos, mais requisições o browser terá que fazer. Ao minificarmos nossos arquivos economizaremos vários bytes, pois isso estará em uma única página, o que diminuirá o número de requisições e nos ajudará a carregar as nossas páginas ainda mais rapidamente.
 
-
-
-
-
+#TOOLS
+thinking the content
+wireframe
+gulp
+sass
+bem
+grid layout
+flexbox
+jquery
