@@ -27,7 +27,8 @@
     Quando escrevemos um código e importante que ele esteja legível e organizado, pois isso nos ajudará em manutenções futuras. No entanto, para o computador nada disso importa, e quanto mais arquivos tivermos, mais requisições o browser terá que fazer. Ao minificarmos nossos arquivos economizaremos vários bytes, pois isso estará em uma única página, o que diminuirá o número de requisições e nos ajudará a carregar as nossas páginas ainda mais rapidamente.
 
 #TOOLS
-thinking the content
+business model - OK
+thinking the content - OK
 wireframe
 gulp
 sass
@@ -35,3 +36,29 @@ bem
 grid layout
 flexbox
 jquery
+
+# business model
+- who is the owner
+    Everton Braga
+- what is important to me (instructor)
+    Give a good knowledge to the students about the technologies that I'll speak in the course
+- who is the audience?
+    Students that want to learn about web development, mainly html and css
+
+When I'm going to search a course, what I think is important?
+    Didatic
+    Good content - OK
+    Best practices
+    Up-to-date technologies - OK
+    Complete project from scratch using all the concepts - OK
+    Support
+
+# thinking the content
+In this course I'll build a high-performance car shop. My goals building this project aren't just about the client (car shop), but it's also about the way I'll do it, because the most important thing here is to give to my students a strong foundation of the modern web development. Of course all the sections have to make sense, but it's secondary.
+
+#wireframe
+Let's do our wireframe. Let's think about what a car website must have to be a good resource for potential buyers. Let's do some research:
+www.porsche.com (showroom)
+www.ferrari.com (css)
+www.jeep.com 
+www.bugatti.com
